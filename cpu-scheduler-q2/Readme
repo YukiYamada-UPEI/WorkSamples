@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "make"
+make
+echo "./a2"
+./s
+echo "make clean"
+make clean

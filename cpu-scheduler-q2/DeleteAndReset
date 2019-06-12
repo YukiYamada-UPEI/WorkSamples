@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+echo "rm scheduler.o"
+
+rm scheduler.o
+rm scheduler.h.gch
+rm processor.o
+rm processor.h.gch
+rm queue.o
+rm queue.h.gch
+rm result.o
+rm result.h.gch
+rm myprocess.o
+rm myprocess.h.gch
+rm data.h.gch
+
+rm myprocess
+rm s

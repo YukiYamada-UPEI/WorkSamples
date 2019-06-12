@@ -1,0 +1,84 @@
+CS-3520 as3 
+Q2 CPU Scheduler
+
+author: yuki yamada
+id: 138557
+
+
+Project Name: 
+Shortest Job First CPU Scheduler
+
+How to run:
+
+Double click on Readme from your folder, and choose "Run on Terminal"
+or
+Type ./Readme on terminal.
+
+You will be prompted to enter one number for a file, so enter one number listed on running. 
+
+**Run "DeleteAndReset" executable. (if you have unnecessary files remaining).
+
+
+
+Description: 
+I designed the shortest job first algorithm virtually with 6 components.
+
+	Scheduler (scheduler.c/h with main)
+	Processor (processor.c/h)
+	Queue     (queue.c/h)
+	Process   (myprocess.c/h)
+
+	Temporal Process Holder (data.h)
+	Result File (result.c/h)
+
+My program is similar to Object Oriented design. Structs are defined in header files and the corresponding operations are defined c files. 
+
+
+**scheduler.c has a main() method. In main(), it calls start() method. Start() method repeats these procedures below. 
+
+1. Check arrivals and put the all arrived processes into CPU queue. 
+2. Check if CPU has a finished process. If yes, move it into I/O queue or terminate the process. 
+3. Check if I/O  has a finisherd process. If yes, move it into CPU queue.
+4. If CPU is empty, move the shortest next job from CPU queue. 
+5. If I/O is empty, move the shortest next job from I/O queue. 
+6. Increment the timer
+
+I have four structs (processor, queue, my_process, holder, result).
+
+[scheduler]
+Scheduler is the main file. Scheduler's main() instantiates 2 processors (CPU & IO) and 2 queues (CPU & IO); opens the file and creates processes; and prepare result struct. 
+
+[my_process]
+One my_process models one process (one line). It contains all the bursts.
+
+[processor]
+CPU and IO processors contains one my_process at one time. 
+
+[my_queue]
+CPU and IO queues contains multiple processes and choose the next shortest burst. 
+
+[result]
+Result struct contains the data to display. All the output results get saved into it.
+
+[holder]
+Just an array of my_process. It contains processes before reaching arrival times. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Instruction:
+Run the Readme executable by the command below in Terminal.
+./Readme
+
+
+
