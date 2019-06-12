@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=boardSize\ nQueens\ nTowers\ nBishops
+comment0.target=QTBPopulationFactory(int,\ int,\ int,\ int)
+comment1.params=nPopulation
+comment1.target=QTBPopulation[]\ createGeneration(int)
+comment1.text=\n\ Create\ a\ random\ generation\ with\ given\ n\ populations\n\n\ @return\n
+comment2.params=
+comment2.target=QTBPopulation\ createPopulation()
+comment2.text=\n\ Creates\ a\ new\ population\ randomly.\n\n\ @return\n
+comment3.params=
+comment3.target=void\ decideTypeOrder()
+comment3.text=\n\n
+comment4.params=
+comment4.target=QTBPopulation\ createPopulationTypeRandom()
+comment4.text=\n\ Creates\ a\ new\ population\ randomly.\n\n\ @return\n
+numComments=5

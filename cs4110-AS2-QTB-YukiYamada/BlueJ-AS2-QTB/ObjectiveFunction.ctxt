@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y\ type
+comment0.target=int\ Evaluate(int[],\ int[],\ int[])
+comment0.text=\n\ This\ method\ evaluates\ the\ objective\ function\n\n\ @param\ \ \ int[]\ x\ \:\ x\ coordinates\ of\ the\ pieces\ \n\ \ \ \ \ \ \ \ \ \ int[]\ y\ \:\ y\ coordinates\ of\ the\ pieces\ \n\ \ \ \ \ \ \ \ \ \ int[]\ type\ \:\ type\ of\ the\ pieces\ (0-queen;\ 1-tower;\ 2-bishop)\n\ \ \ \ \ \ \ \ \ \ \n\ @return\ \ the\ number\ of\ pieces\ being\ attacked\n\ \n
+comment1.params=n\ nQueens\ nTowers\ nBishops\ x\ y\ type
+comment1.target=java.lang.Boolean\ CheckConstraints(int,\ int,\ int,\ int,\ int[],\ int[],\ int[])
+comment1.text=\n\ This\ method\ checks\ whether\ the\ solution\ is\ valid\n\n\ @param\ \ \ int\ n\ \:\ nxn\ size\ of\ the\ board\ \n\ \ \ \ \ \ \ \ \ \ int\ nQueens\ \:\ numbers\ of\ Queens\ that\ should\ be\ placed\ on\ the\ board\ \n\ \ \ \ \ \ \ \ \ \ int\ nTowers\ \:\ numbers\ of\ Towers\ that\ should\ be\ placed\ on\ the\ board\ \n\ \ \ \ \ \ \ \ \ \ int\ nBishops\ \:\ numbers\ of\ Bishops\ that\ should\ be\ placed\ on\ the\ board\ \n\ \ \ \ \ \ \ \ \ \ int[]\ x\ \:\ x\ coordinates\ of\ the\ pieces\ \n\ \ \ \ \ \ \ \ \ \ int[]\ y\ \:\ y\ coordinates\ of\ the\ pieces\ \n\ \ \ \ \ \ \ \ \ \ int[]\ type\ \:\ type\ of\ the\ pieces\ (0-queen;\ 1-tower;\ 2-bishop)\n\ \ \ \ \ \ \ \ \ \ \n\ @return\ \ true\ if\ it\ is\ a\ valid\ solution\n\ \ \ \ \ \ \ \ \ \ false\ if\ the\ constraints\ are\ violated\n
+numComments=2

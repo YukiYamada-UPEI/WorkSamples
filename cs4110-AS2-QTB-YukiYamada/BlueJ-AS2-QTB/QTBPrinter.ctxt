@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=void\ printNumValues(QTBPopulation)
+comment0.text=Overloaded\ methods\ for\ QTBPopulation
+comment1.params=p
+comment1.target=void\ printIndex(QTBPopulation)
+comment2.params=p
+comment2.target=void\ printIndexXY(QTBPopulation)
+comment3.params=p
+comment3.target=void\ printValues(QTBPopulation)
+comment4.params=p
+comment4.target=void\ printSolution(QTBPopulation)
+comment5.params=p
+comment5.target=void\ printValueOfX(QTBPopulation)
+comment6.params=p
+comment6.target=void\ printValueXY(QTBPopulation)
+comment7.params=p
+comment7.target=void\ printAll(QTBPopulation)
+numComments=8

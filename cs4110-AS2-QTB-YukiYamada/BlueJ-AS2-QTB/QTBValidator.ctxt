@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=boardSize\ nQueens\ nTowers\ nBishops\ maxEvaluations
+comment0.target=QTBValidator(int,\ int,\ int,\ int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ RandomSearch\n
+comment1.params=populations
+comment1.target=QTBPopulation\ pickBestPopulation(QTBPopulation[])
+comment1.text=\n\ Pick\ the\ best\ population\ amoung\ the\ generation\n\n\ @param\ populations\n\ @return\n
+comment2.params=p
+comment2.target=boolean\ isPopulationValid(QTBPopulation)
+comment2.text=\n\ Checks\ if\ the\ positions\ of\ pieces\ are\ valid\n\ (no\ two\ pieces\ are\ a\ the\ same\ spot)\n\ (correct\ number\ of\ each\ type\ of\ pieces\ are\ placed)\n
+comment3.params=candidateP\ currentP
+comment3.target=QTBPopulation[]\ checkConstraintsAndEvaluates(QTBPopulation[],\ QTBPopulation[])
+comment3.text=\n\ Checks\ the\ constraints\ and\ fitness\ values\ of\ a\ generation\n\ and\ builds\ a\ new\ generation\ with\ valid\ populations\n\n\ @param\ candidateP\n\ @param\ currentP\n\ @return\n
+comment4.params=candidate
+comment4.target=int\ evaluateFitness(QTBPopulation)
+comment4.text=\n\ Calls\ checkConstraints\ and\ evaluate\ functions\ of\ ObjectiveFunction\ class\n\ Checks\ if\ a\ population\ violates\ constraints\ and\ evaluate\ a\ fitness\ value\ of\ a\ population.\n\n\ @return\ -1\:\ if\ a\ population\ violates\ constraints\n\ fitness\ value\:\ otherwise\n
+comment5.params=populations
+comment5.target=void\ printFitnesses(QTBPopulation[])
+comment5.text=\n\ Prints\ the\ fitness\ values\ of\ the\ current\ generation\n\n\ @param\ populations\n
+numComments=6

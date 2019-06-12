@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=boardSize\ nQueens\ nTowers\ nBishops\ xValues\ yValues\ typeValues
+comment0.target=Solution(int,\ int,\ int,\ int,\ int[],\ int[],\ int[])
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Solution\n
+comment1.params=
+comment1.target=int\ GetFitness()
+comment2.params=
+comment2.target=int\ getN()
+comment2.text=These\ getters\ below\ are\ used\ for\ only\ debugging\ purposes*
+comment3.params=
+comment3.target=int\ getnQ()
+comment4.params=
+comment4.target=int\ getnT()
+comment5.params=
+comment5.target=int\ getnB()
+comment6.params=
+comment6.target=int\ getFitness()
+comment7.params=
+comment7.target=int[]\ getX()
+comment8.params=
+comment8.target=int[]\ getY()
+comment9.params=
+comment9.target=int[]\ getType()
+numComments=10

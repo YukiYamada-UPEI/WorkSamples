@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Solver()
+comment0.text=\n\ Constructs\ the\ solver\ using\ the\ manually\ specified\ parameters\n
+comment1.params=
+comment1.target=void\ Solve()
+comment1.text=\n\ Runs\ the\ algorithm\ and\ returns\ the\ best\ solution\ found\ by\ the\ algorithm\n
+comment2.params=runs
+comment2.target=Statistics\ Test(int)
+comment2.text=\n\ Runs\ the\ algorithm\ a\ specified\ number\ of\ times\ and\ returns\ the\ average\ fitness\ of\ those\ runs\n\ @return\ \ \ \ The\ average\ fitness\ of\ all\ the\ runs\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=
+comment4.target=Solution\ getSol()
+comment4.text=These\ getters\ are\ added\ only\ for\ debugging\ purposes*
+numComments=5

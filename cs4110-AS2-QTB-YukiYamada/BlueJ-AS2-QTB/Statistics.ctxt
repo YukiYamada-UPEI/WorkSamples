@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=min\ max\ ave
+comment0.target=Statistics(int,\ int,\ double)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Statistics\n
+comment1.params=
+comment1.target=double\ getAverage()
+comment1.text=Getters\ are\ added\ for\ only\ a\ debugging\ reason*
+comment2.params=
+comment2.target=int\ getMinimum()
+comment3.params=
+comment3.target=int\ getMaximum()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
