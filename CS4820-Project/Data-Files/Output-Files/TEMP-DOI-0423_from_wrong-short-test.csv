@@ -1,0 +1,6 @@
+Title,Year,DOI,PackageName,URL,Publisher,PrintISSN,OnlineISSN,ManagedCoverageBegin,ManagedCoverageEnd
+ACS Applied Materials & Interfaces,failed,Begin-Later-Than-End-Year,ACS (CRKN),https://pubs.acs.org/journal/aamick,American Chemical Society,1944-8244,1944-8252,2018-12-31,2018-01-01
+Organometallics,failed,Both-Dates-Empty,ACS Legacy Archives,https://pubs.acs.org/loi/orgnd7,American Chemical Society,0276-7333,1520-6041,,
+Journal of Chemical Sciences,failed,Begin-End-Year-Same,SpringerLINK (CRKN),https://link.springer.com/journal/volumesAndIssues/12039,Springer Science+Business Media B.V.,0974-3626,0973-7103,1997-01-01,1997-01-01
+Systematic Biology,1996,10.1093/sysbio/45.2.254,Oxford Journals (CRKN),https://academic.oup.com/sysbio/issue,Oxford University Press,1063-5157,1076-836X,1996-01-01,1996-12-31
+Journal of Orthopaedics,failed,Date-Format-Wrong,ScienceDirect (CRKN),https://www.sciencedirect.com/journal/journal-of-orthopaedics,Elsevier,,0972-978X,2013-03-01-1,12/31/2014

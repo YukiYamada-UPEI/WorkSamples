@@ -1,0 +1,5 @@
+Title,Year,Result,DOI,DOI-URL,PackageName,URL,Publisher
+ACS Applied Materials & Interfaces,failed,Begin-Later-Than-End-Year,,,ACS (CRKN),https://pubs.acs.org/journal/aamick,American Chemical Society
+Organometallics,failed,Both-Dates-Empty,,,ACS Legacy Archives,https://pubs.acs.org/loi/orgnd7,American Chemical Society
+Journal of Chemical Sciences,failed,Begin-End-Year-Same,,,SpringerLINK (CRKN),https://link.springer.com/journal/volumesAndIssues/12039,Springer Science+Business Media B.V.
+Journal of Orthopaedics,failed,Date-Format-Wrong,,,ScienceDirect (CRKN),https://www.sciencedirect.com/journal/journal-of-orthopaedics,Elsevier
