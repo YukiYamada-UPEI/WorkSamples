@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=userDBMS
+comment0.target=UserComponentFactory(UserDBMS)
+comment0.text=\n\ Constructor\n\ @param\ userDBMS\n
+comment1.params=id\ node
+comment1.target=User\ createUser(java.lang.String,\ javax.swing.tree.DefaultMutableTreeNode)
+comment1.text=\n\ Creates\ a\ new\ User\n\ @param\ id\ the\ user\ id\n\ @param\ node\ the\ JTree\ node\ of\ the\ new\ user\n\ @return\ an\ instantiated\ User\n
+comment2.params=id\ node
+comment2.target=UserGroup\ createGroup(java.lang.String,\ javax.swing.tree.DefaultMutableTreeNode)
+comment2.text=\n\ Creates\ a\ new\ UserGroup\n\ @param\ id\ the\ group\ id\n\ @param\ node\ the\ JTree\ node\ of\ the\ new\ UserGroup\n\ @return\ an\ instantiated\ UserGroup\n
+numComments=3

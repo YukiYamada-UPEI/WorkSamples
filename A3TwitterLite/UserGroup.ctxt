@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=id
+comment0.target=UserGroup(java.lang.String)
+comment0.text=\n\ Constructor\n\ @param\ id\n
+comment1.params=
+comment1.target=java.lang.String\ getId()
+comment1.text=\n\ @return\ a\ group\ id\ of\ this\ UserGroup\n
+comment2.params=user
+comment2.target=void\ addUserComponent(UserComponent)
+comment2.text=\n\ Adds\ a\ User\ or\ a\ UserGroup\ to\ the\ list\ of\ UserComponent\n\ @param\ user\ can\ be\ a\ User\ or\ a\ UserGroup\n
+comment3.params=
+comment3.target=void\ print()
+comment3.text=\n\ Prints\ every\ UserComponents\ using\ the\ composite\ and\ iterator\ pattern\n
+comment4.params=visitor
+comment4.target=void\ accept(Visitor)
+numComments=5

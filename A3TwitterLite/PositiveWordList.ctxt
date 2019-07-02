@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PositiveWordList()
+comment0.text=\n\ Constructor\n
+comment1.params=
+comment1.target=void\ addTestWords()
+comment1.text=\n\ Adds\ test\ words\ to\ this\ list\n
+comment2.params=posWords
+comment2.target=void\ addPositiveWords(java.lang.String[])
+comment2.text=\n\ Adds\ an\ array\ of\ positive\ words\ to\ this\ list\n\ @param\ posWords\ array\ of\ positive\ word\ Strings\n
+comment3.params=msg
+comment3.target=boolean\ isPositive(java.lang.String)
+comment3.text=\n\ Checks\ if\ this\ PositiveWordList\ contains\ the\ word\ given\n\n\ @param\ msg\ the\ message\ to\ be\ checked\n\ @return\ true\ if\ the\ msg\ contains\ any\ positive\ word\ stored\ in\ this\ list\n
+numComments=4

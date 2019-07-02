@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=userDatabase
+comment0.target=UserDBMS(UserDatabase)
+comment0.text=\n\ Constructor\n\ @param\ userDatabase\ user\ Database\ which\ this\ DBMS\ communicates\ with\n
+comment1.params=userId
+comment1.target=boolean\ doesUserIdExist(java.lang.String)
+comment1.text=\n\ Returns\ true\ if\ a\ User\ with\ a\ given\ user\ id\ exists\ in\ the\ database\n\ @param\ userId\ the\ user\ id\ to\ look\ for\n\ @return\ true\ if\ a\ User\ exists\ in\ the\ database\n
+comment2.params=userId
+comment2.target=User\ getUserFromDatabase(java.lang.String)
+comment2.text=\n\ Returns\ true\ if\ a\ UserGroup\ with\ a\ given\ group\ id\ exists\ in\ the\ database\n\ @param\ userId\ the\ group\ id\ to\ look\ for\n\ @return\ true\ if\ a\ GroupUser\ exists\ in\ the\ database\n
+comment3.params=tweet
+comment3.target=void\ addNewTweet(Tweet)
+comment3.text=\n\ Adds\ a\ Tweet\ to\ the\ database\n\ @param\ tweet\ a\ Tweet\ instance\n
+comment4.params=database
+comment4.target=UserDBMS\ getInstance(UserDatabase)
+comment4.text=\n\ Singleton\ method\n\ @param\ database\ is\ sent\ to\ the\ UserDBMS\ constructor\n\ @return\ a\ new\ UserDBMS\ instance\ if\ it\ is\ null,\ otherwise\ returns\ itself.\n
+numComments=5

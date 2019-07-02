@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=user
+comment0.target=void\ visit(User)
+comment1.params=group
+comment1.target=void\ visit(UserGroup)
+comment2.params=adminController
+comment2.target=void\ visit(AdminController)
+comment3.params=userPanelController
+comment3.target=void\ visit(UserPanelController)
+numComments=4
