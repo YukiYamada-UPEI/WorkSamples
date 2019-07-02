@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+rm monitor.o
+rm monitor
+rm shm
+rm data.h.gch
+
+rm file.o
+rm file.h.gch

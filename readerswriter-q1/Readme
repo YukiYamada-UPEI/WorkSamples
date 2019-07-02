@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#echo "make all"
+make all
+
+#echo "./shm"
+./shm
+
+#echo "make clean"
+make clean
+
+

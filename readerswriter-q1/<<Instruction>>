@@ -1,0 +1,45 @@
+CS-3520 as3 
+Q1 Readers and a Writer Problem
+
+author: yuki yamada
+id: 138557
+
+
+Project Name: 
+Readers Writers Solving with Monitor
+
+
+
+
+Instruction:
+You can double click Readme in the folder and click "Run on Terminal"
+OR
+Run the Readme executable by the command below in Terminal.
+./Readme
+
+**Run "DeleteAndReset" executable. (if you have unnecessary files remaining).
+
+
+Description: 
+This program forks 10 children (readers and writers). Readers and writers tries to access the INFO defined as a struct. This program is built to avoid the conflicts 
+
+I have just 2 files.
+
+monitor.c (with main)
+data.h
+
+1. The main method forks 10 children and each child start its operation by calling either start_reader or start_writer. 
+
+2. Each child has 3 lives (3 write or read) and terminates. 
+
+3. After read or write operation, each child calls put_yourself() and suspend() methods with its own id by getpid(). put_yourself() puts a pid into a monitor queue. suspend() suspends an execution of a process by a system call. 
+
+4. Monitor queue is handled by a thread. The monitor_thread checks if INFO is being accessed by anyone. If it is empty, monitor wakes the child reader or writer up from the queue. 
+
+5. Multiple readers are allowed to read. 
+
+
+
+
+
+
