@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#
+echo " make"
+make
+
+./pc
+
+echo "make clean"
+make clean
+

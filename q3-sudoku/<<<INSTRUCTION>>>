@@ -1,0 +1,37 @@
+cs-3520 assignment #2 Question3
+
+project name: 9x9 sudoku
+author: Yuki Yamada
+id: 138557
+
+
+<<<<Instruction>>>>>
+
+1) RUN 
+Open a folder "q3-sudoku"
+double click on "Readme" executable
+click "Run in Terminal"
+
+OR
+
+./Readme
+
+
+2) Only 9x9 sudoku
+3) Total 11 threads:
+	1 thread for rows
+	1 thread for columns
+	9 threads for each square
+
+4) Valid and Invalid
+	valid   = 1
+	invalid = 0
+
+
+5) Thank you for grading!
+
+
+
+
+
+
